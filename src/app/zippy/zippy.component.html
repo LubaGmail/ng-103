@@ -1,0 +1,23 @@
+<div class='zippy'>
+
+  <div (click)='toggle()' 
+    class='zippy-heading'
+    [class.expanded]='showDetail'
+   >
+    {{title}}
+
+    <i *ngIf='showDetail' class="fa fa-angle-double-up" aria-hidden='true'></i>
+    <i *ngIf='!showDetail' class="fa fa-angle-double-down" aria-hidden='true'></i>
+  
+  </div>
+
+  <div 
+    class='zippy-body'
+      *ngIf='showDetail'
+  >
+      Zippy Detail
+  </div>
+
+</div>
+
+<hr style='color: deeppink'>

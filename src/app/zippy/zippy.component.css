@@ -1,0 +1,23 @@
+.zippy {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.zippy-heading {
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.zippy-body {
+    padding: 15px;
+}
+
+.expanded {
+    background-color: aquamarine;
+}
+
+.fa {
+    float: right;
+}

@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.css';
+@import "~font-awesome/css/font-awesome.css";
+
+body {
+    padding: 20px;
+}
+
+hr{
+    height: 1px;
+    color: red;
+    background-color: red;
+    border: none;
+}
